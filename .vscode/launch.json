@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "name": "Debug",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/tictactoe.exe",
+            "preLaunchTask": "Build Debug"
+        },
+
+        {
+            "type": "cppdbg",
+            "name": "Test",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/tictactoe.exe",
+            "preLaunchTask": "Build Test"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.txt": "plaintext",
+        "*.html": "html",
+        "board.h": "c",
+        "stdio.h": "c"
+    }
+}
